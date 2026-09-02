@@ -31,7 +31,15 @@ EnvCanvas ## Canvas to display the environment of an EnvGUI
 
 from utils import distance_squared, turn_heading
 from statistics import mean
-from ipythonblocks import BlockGrid
+
+try:
+    from ipythonblocks import BlockGrid
+except ImportError:
+    # ipythonblocks hanya dipakai GUI grid (GraphicEnvironment), tidak
+    # dipakai di modul Logical Agents. Dibuat opsional supaya logic.py
+    # tetap bisa diimpor tanpa paket ini terpasang.
+    BlockGrid = None
+
 from IPython.display import HTML, display, clear_output
 from time import sleep
 
