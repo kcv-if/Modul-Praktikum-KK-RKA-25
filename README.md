@@ -1,16 +1,11 @@
 # Modul Praktikum Logical Agents
 
-Kecerdasan Komputasional (N), mengikuti Bab 7 AIMA edisi 3.
-
 Modul ini membahas agent yang mengambil keputusan dengan **menalar**, bukan
 dengan mencocokkan situasi ke tabel aksi. Agent menyimpan apa yang diketahuinya
 dalam sebuah knowledge base, lalu menurunkan kesimpulan baru dari situ. Contoh
 yang dipakai sepanjang modul adalah Wumpus World: sebuah gua yang isinya tidak
 terlihat, sehingga agent harus menyimpulkan kotak mana yang aman hanya dari bau
 dan hembusan angin yang dirasakannya.
-
-Pertanyaan yang dijawab modul ini: kapan sebuah kesimpulan boleh disebut pasti
-benar, dan bagaimana komputer memeriksanya.
 
 ## Alur materi
 
