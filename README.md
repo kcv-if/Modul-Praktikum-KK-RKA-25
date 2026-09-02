@@ -51,7 +51,7 @@ perlu install apa pun.
 **Lokal.**
 
 ```bash
-git clone https://github.com/eycoo/Modul-Praktikum-KK-RKA-25.git
+git clone https://github.com/kcv-if/Modul-Praktikum-KK-RKA-25.git
 cd Modul-Praktikum-KK-RKA-25
 pip install -r requirements.txt
 jupyter lab
