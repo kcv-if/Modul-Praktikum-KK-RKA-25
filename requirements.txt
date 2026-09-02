@@ -1,0 +1,16 @@
+# Dependensi modul praktikum Logical Agents.
+#
+# qpsolvers sengaja TIDAK dimasukkan. Paket itu cuma dipakai bagian SVM di
+# learning.py, tidak ada hubungannya dengan materi ini, dan import-nya sudah
+# dibuat opsional. Jangan ditambahkan lagi.
+
+ipywidgets>=8.0
+matplotlib>=3.5
+networkx>=2.8
+numpy>=1.23
+pandas>=1.5
+pillow>=9.0
+pygments>=2.13
+
+# Hanya perlu kalau menjalankan notebook secara lokal, bukan lewat Colab.
+jupyterlab>=4.0

@@ -1,0 +1,20 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# File internal tim, tidak ikut dibagikan ke mahasiswa
+PANDUAN.md
+cek_notebook.py
