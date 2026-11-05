@@ -79,3 +79,17 @@ bisa dibuka-tutup.
 
 Sebelum mengumpulkan, jalankan **Restart and Run All** dan pastikan tidak ada
 error dari atas sampai bawah.
+
+## Materi tambahan: Hidden Markov Model
+
+Notebook [01 - Hidden Markov Model](Hidden%20Markov%20Model/01%20-%20Hidden%20Markov%20Model.ipynb)
+berada di folder `Hidden Markov Model/` dan dapat dikerjakan mandiri.
+Materinya mencakup state dan observasi, transisi dan emisi, likelihood,
+Forward/filtering, Backward/smoothing, Viterbi, prediksi, serta pelatihan
+Baum-Welch pada data sintetis. Contoh inferensi memakai model payung AIMA;
+tautan sumber ada di notebook.
+
+Jalankan sel Setup, lalu seluruh sel secara berurutan. Notebook memakai
+`hmmlearn`, NumPy, pandas, dan Matplotlib, yang tercantum di `requirements.txt`;
+environment AIMA tidak diperlukan. Notebook dapat diunggah langsung ke Colab.
+Lima latihan di akhir menyediakan sel jawaban kosong dan pembahasan lipat.

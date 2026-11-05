@@ -4,6 +4,7 @@
 # learning.py, tidak ada hubungannya dengan materi ini, dan import-nya sudah
 # dibuat opsional. Jangan ditambahkan lagi.
 
+hmmlearn>=0.3.3
 ipywidgets>=8.0
 matplotlib>=3.5
 networkx>=2.8
