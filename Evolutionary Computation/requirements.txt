@@ -1,0 +1,8 @@
+# Dependensi notebook Evolutionary Computation (PSO), versi dikunci agar animasi
+# dan angka eksperimen dapat diulang persis. ffmpeg (paket sistem, bukan pip)
+# opsional: tanpa ffmpeg animasi hanya diekspor sebagai GIF.
+ipywidgets==8.1.9
+jupyter==1.1.1
+matplotlib==3.11.2
+numpy==2.5.5
+pillow==13.0.0
